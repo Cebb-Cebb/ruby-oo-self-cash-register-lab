@@ -17,7 +17,7 @@ describe 'CashRegister' do
       cash_register.total = 100
       expect(cash_register.total).to eq(100)
     end
-  end
+  end 
 
   describe '#add_item' do
     it 'accepts a title and a price and increases the total' do
